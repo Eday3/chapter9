@@ -11,7 +11,7 @@ header {
 }
 
 .main {
-  height: 300px;
+  height: 1000px;
   width: 100%;
   background-color: white;
 }
@@ -21,6 +21,19 @@ header {
   margin-top: 50px;
   margin-bottom: 50px;
   background-color: #eeeeee;
+}
+
+.picture1 {
+  background-image: url(img/flow01.png);
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.step-number {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 footer {
